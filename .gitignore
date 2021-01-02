@@ -1,0 +1,26 @@
+.DS_Store
+mysql/my.cnf
+.env
+
+go-tweet/.DS_Store
+go-tweet/node_modules
+/dist
+
+# local env files
+go-tweet/.env.local
+go-tweet/.env.*.local
+
+# Log files
+go-tweet/npm-debug.log*
+go-tweet/yarn-debug.log*
+go-tweet/yarn-error.log*
+go-tweet/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

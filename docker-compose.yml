@@ -1,0 +1,27 @@
+version: '3'
+services:
+  go:
+    image: golang:latest
+    ports:
+      - "18080:18080"
+    depends_on:
+      - vue
+      - mysql
+    volumes:
+      - .:/go
+    tty: true
+  vue:
+    build: ./node-vuejs
+    ports:
+      - "1234:8080"
+    volumes:
+      - .:/MyApp
+    tty: true
+  mysql:
+    build: ./mysql/
+    volumes:
+      - ./mysql/db:/docker-entrypoint-initdb.d
+    env_file: ./.env
+    ports:
+      - "4306:3306"
+    tty: true
