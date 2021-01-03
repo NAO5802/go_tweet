@@ -1,6 +1,7 @@
 .DS_Store
 mysql/my.cnf
 .env
+memo.md
 
 go-tweet/.DS_Store
 go-tweet/node_modules
