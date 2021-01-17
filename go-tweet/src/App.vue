@@ -1,9 +1,9 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="sample"/> -->
   <div>
-    <router-link to="/top">トップページ</router-link>
-    <router-link to="/sign_up">ユーザー登録ページ</router-link>
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="sample"/> -->
+  <router-link to="/top">トップページ</router-link>
+  <router-link to="/sign_up">ユーザー登録ページ</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -11,18 +11,10 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 
-// Vue.use(http, { store });
-// new Vue({
-//   el: '#app',
-//   router,
-//   store,
-//   render: h => h(App)
-// });
-
 export default {
   name: 'App',
   // components: {
-  //   router
+  //   HelloWorld
   // }
 }
 </script>
