@@ -1,5 +1,4 @@
 .DS_Store
-mysql/my.cnf
 .env
 memo.md
 
@@ -25,3 +24,7 @@ go-tweet/pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# mysql
+mysql/data
+mysql/my.cnf
